@@ -46,9 +46,7 @@ int main(int argc, char** argv) {
 			cout << "Ingresa el multiplicador (numero por el cual vas a multiplicar)" << endl;
 			cin >> multiplicador;
 			
-			// i debe iniciar en 1, ya que si se inicializa en 0, hace un ciclo más haciendo una suma extra 
-			//i.e: X[7 * 6 = 49]  C[7 * 6 = 42] 
-			for (i=1; i <= multiplicador; i++)
+			for (i=0; i < multiplicador; i++)
 			{
 				producto = producto+multiplicando;
 			}
