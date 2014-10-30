@@ -18,7 +18,7 @@ int main(int argc, char** argv) {
 		//En la primer vuelta  1 * 1 = 1
 		//En la segunda vuelta 1 * 2 = 2
 		//En la tarcera vuelta 2 * 3 = 6 
-		//Y continua así hasta que la condición se respete		
+		//Y continua asi hasta que la condicion se respete		
 		factorial=factorial*i;
 	}
 	
