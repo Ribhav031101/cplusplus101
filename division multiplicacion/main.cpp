@@ -4,7 +4,7 @@ using namespace std;
 /* run this program using the console pauser or add your own getch, system("pause") or input loop */
 
 int main(int argc, char** argv) {
-
+	//generales
 	int menu;
 	int i;
 	
@@ -29,7 +29,7 @@ int main(int argc, char** argv) {
 			cout << "Ingresa el divisor (numero por el cual vas a dividir)" << endl;
 			cin >> divisor;
 			
-			// i debe iniciar en 0, ya que si se inicializa en 1, suma 1 al resultado de la operaciÛn al final del ciclo
+			// i debe iniciar en 0, ya que si se inicializa en 1, suma 1 al resultado de la operaci√≥n al final del ciclo
 			for (i= 0; dividendo != 0; i++)
 			{
 				dividendo = dividendo-divisor;
@@ -46,7 +46,7 @@ int main(int argc, char** argv) {
 			cout << "Ingresa el multiplicador (numero por el cual vas a multiplicar)" << endl;
 			cin >> multiplicador;
 			
-			// i debe iniciar en 1, ya que si se inicializa en 0, hace un ciclo m·s haciendo una suma extra 
+			// i debe iniciar en 1, ya que si se inicializa en 0, hace un ciclo m√°s haciendo una suma extra 
 			//i.e: X[7 * 6 = 49]  C[7 * 6 = 42] 
 			for (i=1; i <= multiplicador; i++)
 			{
