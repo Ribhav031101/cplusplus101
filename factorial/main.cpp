@@ -15,7 +15,7 @@ int main(int argc, char** argv) {
 	for(i=1; i<=numero;i++)
 	{
 		//La variable factorial va a estar multiplicando mientras sea menor o igual que  numero
-		//En la primer vuelta 1 * 1 = 1
+		//En la primer vuelta  1 * 1 = 1
 		//En la segunda vuelta 1 * 2 = 2
 		//En la tarcera vuelta 2 * 3 = 6 
 		//Y continua así hasta que la condición se respete		
@@ -23,6 +23,6 @@ int main(int argc, char** argv) {
 	}
 	
 	cout<<"El factorial de "<<numero<<" es "<<factorial<<endl;
-	cout<<"Ya vete por una cerveza..."<<endl;
+	cout<<"Ya vete por una cerveza..."<<endl;	
 	return 0;
 }
